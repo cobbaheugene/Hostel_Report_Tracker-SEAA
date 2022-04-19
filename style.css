@@ -86,8 +86,7 @@ body{
 }
 
 #homepage{
-  position:relative;
-  animation: home 12s;
+    animation: home 12s;
 
 }
 @keyframes home{
