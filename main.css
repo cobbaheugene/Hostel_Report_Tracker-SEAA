@@ -113,6 +113,17 @@
     scroll-behavior: smooth;
   }
 }
+#homepage{
+  animation: home  linear forwards 7s;
+
+}
+@keyframes home{
+  from {bottom:-1000px; opacity:0;}
+
+  to {
+      bottom:0px;  opacity:1;
+  }
+}
 
 body {
   margin: 0;

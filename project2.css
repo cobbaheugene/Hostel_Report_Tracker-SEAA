@@ -1,3 +1,9 @@
+
+* {
+    font-family: 'Roboto', sans-serif;}
+
+
+
 body{
     background-image: url(pexels-helena-lopes-3215519.jpg);
     background-size: cover;
@@ -6,4 +12,13 @@ body{
     -o-background-size:cover;
     background-repeat: no-repeat;   
     background-position: center;
+}
+.animate{
+    position:relative;
+    animation: mobile 5s ;
+}
+
+@keyframes mobile{
+    from{left:-270px;}
+    to{left: 70px;}
 }
