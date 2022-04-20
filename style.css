@@ -20,7 +20,7 @@ body{
     stroke:rgb(24, 22, 22);
     stroke-dasharray:3100;
     stroke-dashoffset:500;
-    animation: anihostel 3s linear forwards;
+    animation: anihostel 2s linear forwards;
 }
 
 
@@ -86,11 +86,11 @@ body{
 }
 
 #homepage{
-    animation: home  linear forwards 12s;
+    animation: home  linear forwards 5s;
 
 }
 @keyframes home{
-    from {bottom:-900px; opacity:0;}
+    from {bottom:-100px; opacity:0.9}
 
     to {
         bottom:0px;  opacity:1;
