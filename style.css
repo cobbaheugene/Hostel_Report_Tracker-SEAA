@@ -86,7 +86,7 @@ body{
 }
 
 #homepage{
-    animation: home 12s;
+    animation: home  linear forwards 12s;
 
 }
 @keyframes home{
